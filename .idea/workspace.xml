@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +46,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="660" />
-    <option name="width" value="620" />
-    <option name="height" value="728" />
-  </component>
   <component name="ProjectId" id="1jKjeojhwENAQgvFTVgJZUJFFBp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,7 +68,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
-  <component name="RunManager" selected="JUnit.ImageControllerTest.uploadImageWithGetRequest">
+  <component name="RunManager" selected="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,22 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ImageHoster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImageHoster.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
-      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.HomeControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageControllerTest.getUserImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageControllerTest.deleteImageWithNonOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ImageHoster.controller" />
       <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
-      <option name="METHOD_NAME" value="getUserImages" />
+      <option name="METHOD_NAME" value="deleteImageWithNonOwnerOfTheImage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageControllerTest.showImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageControllerTest.deleteImageWithOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +106,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ImageHoster.controller" />
       <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
-      <option name="METHOD_NAME" value="showImage" />
+      <option name="METHOD_NAME" value="deleteImageWithOwnerOfTheImage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageControllerTest.uploadImageWithGetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageControllerTest.editImageWithNonOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
@@ -148,32 +122,51 @@
       </extension>
       <option name="PACKAGE_NAME" value="ImageHoster.controller" />
       <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
-      <option name="METHOD_NAME" value="uploadImageWithGetRequest" />
+      <option name="METHOD_NAME" value="editImageWithNonOwnerOfTheImage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageControllerTest.editImageWithOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ImageHoster.*" />
+          <option name="PATTERN" value="ImageHoster.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ImageHoster.ImageHosterApplication" />
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="editImageWithOwnerOfTheImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageControllerTest.uploadImageWithPostRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="uploadImageWithPostRequest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImageControllerTest.uploadImageWithGetRequest" />
-        <item itemvalue="JUnit.ImageControllerTest.showImage" />
-        <item itemvalue="JUnit.ImageControllerTest.getUserImages" />
-        <item itemvalue="JUnit.HomeControllerTest" />
-        <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage" />
+        <item itemvalue="JUnit.ImageControllerTest.deleteImageWithOwnerOfTheImage" />
+        <item itemvalue="JUnit.ImageControllerTest.editImageWithNonOwnerOfTheImage" />
+        <item itemvalue="JUnit.ImageControllerTest.editImageWithOwnerOfTheImage" />
+        <item itemvalue="JUnit.ImageControllerTest.uploadImageWithPostRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +195,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1603559776612" duration="1385000" />
+      <workItem from="1603559776612" duration="2210000" />
     </task>
     <servers />
   </component>
